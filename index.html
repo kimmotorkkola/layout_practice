@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Layout Practice</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="header">
-        Header Logo
+        <p class="logo">Header Logo</p>
         <ul class="nav">
             <li><a href="#">header link one</a></li>
             <li><a href="#">header link two</a></li>
@@ -16,13 +17,19 @@
         </ul>
     </div>
     <div class="hero">
-        <p class="herohead">This Website is awesome</p>
-        <p>This website has some subtext that goes here undet the main title. It's a smaller font and the color is lower contrast</p>
-        <button class="signup">Sign up</button>
-        <img src="images/seal-g30a435a40_1280.jpg" class="heroimg">
+        <div class="herocontent">
+            <div class="herotext">
+               <p class="herohead">This Website is awesome</p>
+               <p class="herosnd">This website has some subtext that goes here undet the main title. It's a smaller font and the color is lower contrast</p>
+               <button class="signup">Sign up</button>
+            </div>
+            <img src="images/seal-g30a435a40_1280.jpg" class="heroimg">
+         </div>
     </div>
     <div class="content">
+        <div class="loota1">
         <h1>Some Random information</h1>
+        <div class="figuret">
         <figure>
             <img src="images/astrology-g5fdb11f91_640.png">
             <figcaption>this is some subtext under and illustration or image</figcaption>
@@ -34,21 +41,27 @@
         <figure>
             <img src="images/colorful-g2cae669ef_640.png">
             <figcaption>this is some subtext under and illustration or image</figcaption>
-        </figure>
-        <figure>
-            <img src="images/profile-g18f38c753_640.jpg">
-            <figcaption>this is some subtext under and illustration or image</figcaption>
-        </figure>
+         </figure>
+         <figure>
+              <img src="images/profile-g18f38c753_640.jpg">
+             <figcaption>this is some subtext under and illustration or image</figcaption>
+            </figure>
+        </div>
+    </div>
+    <div class="loota2">
         <div class="quote">
             <p class="lainaus">This is an inspiring quote, or a testimonial from a customer. Maybe its just filling up space, or maybe some people will actually read it. Who knows? All i know is hat it looks nice.</p>
             <p class="signature">Thor, God of Thunder</p>
         </div>
-        <div class="cta">
+    </div>
+    <div class="loota3">
+    <div class="cta">
             <p class="ctah">Call To action! It-s time!
                 <p class="ctalil">Sign up for our product by clicking that button right over there!</p>
                 <button class="signup">Sign up</button>
             </p>
         </div>
+    </div>
     </div>
     <div class="footer">
         Copyright Kimmo Torkkola 2022
